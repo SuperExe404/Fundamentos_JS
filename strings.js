@@ -12,9 +12,10 @@ console.log(`Soy ${ name } ${ last_name} y tengo ${ age } años`);
 
 // metodos y atibutos de String
 const texto = "Este Es uN TexTo";
-console.log(texto.toUpperCase);
-console.log(texto.toLowerCase);
+console.log(texto.toUpperCase());
+console.log(texto.toLowerCase());
 console.log(texto.charAt(5));
 console.log(texto.endsWith('s'));
 console.log(texto.includes('es'));
 console.log(texto.length);
+console.log('*'.repeat(10));
