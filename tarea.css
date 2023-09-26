@@ -1,0 +1,12 @@
+body {
+    background-color: darkseagreen;
+
+}
+.container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1 {
+    color: black;
+}
