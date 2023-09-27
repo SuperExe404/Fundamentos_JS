@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors RGBA</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .container {
+            width: 400px;
+            padding: 20px;
+        }
+        .container * {
+            width: 100%;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Set Color Red</h1>
+        <input type="range" id="red" min="0" max="256">
+        <br>
+        <h1>Set Color Green</h1>
+        <input type="range" id="green" min="0" max="256">
+        <br>
+        <h1>Set Color Blue</h1>
+        <input type="range" id="blue" min="0" max="256">
+        <br>
+        <h1>Transparencia</h1>
+        <input type="range" id="trans" min="0" max="256">
+        <br>
+    </div>
+    <script src="./colorsrgba.js"></script>
+</body>
+</html>
