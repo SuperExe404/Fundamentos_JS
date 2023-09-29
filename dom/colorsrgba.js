@@ -11,7 +11,7 @@ function setColor(){
     const greenVal = green.value;
     const blueVal = blue.value;
     const transVal = trans.value;
-    const rgbaColor = `rgb(${redVal}, ${greenVal}, ${blueVal}, ${transVal})`;
+    const rgbaColor = `rgba(${redVal}, ${greenVal}, ${blueVal}, ${transVal})`;
     body.style.background=rgbaColor;
 }
 
